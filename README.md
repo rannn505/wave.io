@@ -1,6 +1,5 @@
-[<img height="50" width="50" src="https://raw.githubusercontent.com/rannn505/wave.io/master/assets/wave.io.png">](http://google.com)
-<p> The fastest communication via WebSocket using a familiar HTTP syntax </p>
-[![Version npm](https://img.shields.io/npm/v/wave.io.svg?style=flat-square)](https://www.npmjs.com/package/wave.io)[![NPM Downloads](https://img.shields.io/npm/dt/wave.io.svg?style=flat-square)](https://www.npmjs.com/package/wave.io)[![Dependencies](https://img.shields.io/david/rannn505/wave.io.svg?style=flat-square)](https://david-dm.org/rannn505/wave.io)
+[<img src="https://raw.githubusercontent.com/rannn505/wave.io/master/assets/wave.io.png">](https://github.com/rannn505/wave.io)
+[![Version npm](https://img.shields.io/npm/v/wave.io.svg?style=flat-square)](https://www.npmjs.com/package/wave.io)[![NPM Downloads](https://img.shields.io/npm/dt/wave.io.svg?style=flat-square)](https://www.npmjs.com/package/wave.io)
 
 ## Installation
 
@@ -54,32 +53,32 @@ All these gives wave some "BOOM!" performance, when it comes to send and receive
    
 #### http.get(path:String, callback:Function)
 
-  The get function sends this JSON schema (as a string) to the server:
+  The get function sends this JSON schema (as a string) to the server:<br/> 
   { method: 'GET', uri: '/path-arg', data: '', reswaiter: true }
 
 #### http.post(path:String, data:AnyDataType, callback:Function)
 
-  The post function sends this JSON schema (as a string) to the server:
+  The post function sends this JSON schema (as a string) to the server:<br/> 
   { method: 'POST', uri: '/path-arg', data: 'data-arg', reswaiter: true }
   
 #### http.put(path:String, data:AnyDataType, callback:Function)
 
-  The put function sends this JSON schema (as a string) to the server:
+  The put function sends this JSON schema (as a string) to the server:<br/> 
   { method: 'PUT', uri: '/path-arg', data: 'data-arg', reswaiter: true }
 
 #### http.delete(path:String, data:AnyDataType, callback:Function)
 
-  The delete function sends this JSON schema (as a string) to the server:
+  The delete function sends this JSON schema (as a string) to the server:<br/> 
   { method: 'DELETE', uri: '/path-arg', data: 'data-arg', reswaiter: true }
   
 #### Principals<a name="Principals"></a>
   
-  wave.io designed to make a ws connection to the server and transmit your data in the form of a JSON schema look like this:
+  wave.io designed to make a ws connection to the server and transmit your data in the form of a JSON schema look like this:<br/> 
   { method: 'Method', uri: '/SomePath', data: 'SomeData', reswaiter: true }
   - `method`   :The HTTP verb of the request (String).
   - `uri`      :The relative path of the request (String).
   - `data`     :The data to transmit (Any DataType).
-  - `reswaiter`:Represent whether the callback arg is used or not (Boolean).
+  - `reswaiter`:Represent whether the callback arg is used or not (Boolean).<br/> 
   This means, that in order to return data to the callback on the client, 
   wave demands that the response from the server will be the same JSON schema with the same method and uri values.
   
