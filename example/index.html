@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Wave.io Tests</h1>
+<h4>Press F12 and Enjoy :)</h4>
+<button onclick="postest()">Post Test!</button>
+<div id="postest"></div>
+
+<script src="public/wave.io.js"></script>
+<script>
+
+    http.seturl("localhost:8080");
+
+    http.get("/getest", function (data) {
+        console.log(data);
+    });
+
+    function postest(){
+        http.post("/postest",{wave:"Is Awesome"},function(data){
+            var a = document.getElementById("postest");
+            a.innerHTML += data;
+            document.body.appendChild(a);
+        });
+    }
+
+</script>
+</body>
+</html>

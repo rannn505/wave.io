@@ -1,0 +1,37 @@
+{
+  "name": "wave.io",
+  "version": "1.0.0",
+  "description": "The fastest communication via WebSocket using a familiar HTTP syntax",
+  "main": "wave.io.min.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rannn505/wave.io.git"
+  },
+  "keywords": [
+    "pulse",
+    "pulse.io",
+    "websocket",
+    "ws",
+    "http",
+    "http",
+    "syntax",
+    "syntax",
+    "fast",
+    "communicate"
+  ],
+  "author": "Ran Cohen <rannn505@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rannn505/wave.io/issues"
+  },
+  "homepage": "https://github.com/rannn505/wave.io#readme"
+}
