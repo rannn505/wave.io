@@ -17,8 +17,9 @@
     "url": "git+https://github.com/rannn505/wave.io.git"
   },
   "keywords": [
-    "pulse",
-    "pulse.io",
+    "wave",
+    "wave.io",
+    "client",
     "websocket",
     "ws",
     "http",

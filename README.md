@@ -73,16 +73,15 @@ All these gives wave some "BOOM!" performance, when it comes to send and receive
   
 #### Principals<a name="Principals"></a>
   
-  wave.io designed to make a ws connection to the server and transmit your data in the form of a JSON schema look like this:<br/> 
-  { method: 'Method', uri: '/SomePath', data: 'SomeData', reswaiter: true }
+ wave.io designed to make a ws connection to the server and transmit your data in the form of a JSON schema look like this:<br/> 
+ { method: 'Method', uri: '/SomePath', data: 'SomeData', reswaiter: true }
+   
+   - `method`   :The HTTP verb of the request (String).
+   - `uri`      :The relative path of the request (String).
+   - `data`     :The data to transmit (Any DataType).
+   - `reswaiter`:Represent whether the callback arg is used or not (Boolean).
   
-  - `method`   :The HTTP verb of the request (String).
-  - `uri`      :The relative path of the request (String).
-  - `data`     :The data to transmit (Any DataType).
-  - `reswaiter`:Represent whether the callback arg is used or not (Boolean).
-  
-  This means, that in order to return data to the callback on the client, 
-  wave demands that the response from the server will be the same JSON schema with the same method and uri values.
+ This means, that in order to return data to the callback on the client, wave demands that the response from the server will be the same JSON schema with the same method and uri values.
   
   > **TIP:** 
   > If your using Node, you might wanna take a look on [wave.io-nodejs](https://github.com/rannn505/wave.io-nodejs), which simplifies all the work with wave on the server side.

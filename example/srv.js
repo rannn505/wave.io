@@ -13,7 +13,7 @@ var http = require('http')
         console.log("Listening 8080");
     });
 
-var router = require('wave-io-server')(http);
+var router = require('wave.io-server')(http);
 
 router.get('/getest',function(req,res){
     console.log(req);
