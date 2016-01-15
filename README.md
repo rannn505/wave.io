@@ -85,7 +85,7 @@ All these gives wave some "BOOM!" performance, when it comes to send and receive
   wave demands that the response from the server will be the same JSON schema with the same method and uri values.
   
   > **TIP:** 
-  > If your using Node, you might wanna take a look on [Wave.io-server(node)](), which simplifies all the work with wave on the server side.
+  > If your using Node, you might wanna take a look on [wave.io-nodejs](https://github.com/rannn505/wave.io-nodejs), which simplifies all the work with wave on the server side.
   
     
 ## Benefits<a name="Benefits"></a>
@@ -96,7 +96,7 @@ Now, dynamic data can flow freely over WebSocket connections that are persistent
 
 ## Contribute
 
-If you wanna contribute to wave, You can help with server side module like [Wave.io-server(node)](),
+If you wanna contribute to wave, You can help with server side module like [wave.io-nodejs](https://github.com/rannn505/wave.io-nodejs),
 which implements the principles from [here](#Principals), for other languages like (C#, Java, PHP, Ruby, Python, Perl).<br/>
 Your more then welcome to email me any time <Rannn505@outlook.com>
 
