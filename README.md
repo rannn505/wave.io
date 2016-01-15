@@ -1,4 +1,4 @@
-[<img src="https://raw.githubusercontent.com/rannn505/wave.io/master/assets/wave.io.png">](https://github.com/rannn505/wave.io)
+[<img src="https://raw.githubusercontent.com/rannn505/wave.io/master/assets/wave.io.png">](https://github.com/rannn505/wave.io)<br/>
 [![Version npm](https://img.shields.io/npm/v/wave.io.svg?style=flat-square)](https://www.npmjs.com/package/wave.io)[![NPM Downloads](https://img.shields.io/npm/dt/wave.io.svg?style=flat-square)](https://www.npmjs.com/package/wave.io)
 
 ## Installation
@@ -75,10 +75,12 @@ All these gives wave some "BOOM!" performance, when it comes to send and receive
   
   wave.io designed to make a ws connection to the server and transmit your data in the form of a JSON schema look like this:<br/> 
   { method: 'Method', uri: '/SomePath', data: 'SomeData', reswaiter: true }
+  
   - `method`   :The HTTP verb of the request (String).
   - `uri`      :The relative path of the request (String).
   - `data`     :The data to transmit (Any DataType).
-  - `reswaiter`:Represent whether the callback arg is used or not (Boolean).<br/> 
+  - `reswaiter`:Represent whether the callback arg is used or not (Boolean).
+  
   This means, that in order to return data to the callback on the client, 
   wave demands that the response from the server will be the same JSON schema with the same method and uri values.
   
@@ -95,7 +97,7 @@ Now, dynamic data can flow freely over WebSocket connections that are persistent
 ## Contribute
 
 If you wanna contribute to wave, You can help with server side module like [Wave.io-server(node)](),
-which implements the principles from [here](#Principals), for other languages like (C#, Java, PHP, Ruby, Python, Perl..).
+which implements the principles from [here](#Principals), for other languages like (C#, Java, PHP, Ruby, Python, Perl).<br/>
 Your more then welcome to email me any time <Rannn505@outlook.com>
 
 ## Credits
