@@ -120,6 +120,9 @@ Your more then welcome to email me any time <Rannn505@outlook.com>
 
 wave using the awesome [reconnecting-websocket](https://github.com/joewalnes/reconnecting-websocket) of joewalnes.
 
+Don't forget a Star :)
+[![GitHub Star](https://img.shields.io/github/stars/rannn505/wave.io.svg?style=social&label=Star)](https://github.com/rannn505/wave.io)
+
 
 ## License
 
