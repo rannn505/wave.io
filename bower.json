@@ -1,0 +1,35 @@
+{
+  "name": "wave.io",
+  "description": "The fastest communication via WebSocket using a familiar HTTP syntax",
+  "main": "wave.io.min.js",
+  "authors": [
+    "Ran Cohen <rannn505@outlook.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "wave",
+    "wave.io",
+    "client",
+    "websocket",
+    "ws",
+    "http",
+    "http",
+    "syntax",
+    "syntax",
+    "fast",
+    "communicate"
+  ],
+  "homepage": "https://github.com/rannn505/wave.io",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/img/**",
+    "assets/tests/**",
+    ".idea/**",
+    "lib/old_ver/**",
+    "gulpfile.js"
+  ]
+}
+

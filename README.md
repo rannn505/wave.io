@@ -15,6 +15,10 @@ $ npm install wave.io
 ``` html
 <script src="Path/To/wave.io.min.js"></script>
 ```
+- bower:
+```bash
+bower install wave.io
+```
 
 ## What's wave.io?
 
@@ -24,6 +28,7 @@ All these gives wave some "BOOM!" performance, when it comes to send and receive
 
 ## Quick start
 
+At the Client: (using [wave.io](https://github.com/rannn505/wave.io))
 ```javascript
 <script src="/wave.io/wave.io.min.js"></script>
 <script>
@@ -36,6 +41,18 @@ All these gives wave some "BOOM!" performance, when it comes to send and receive
     });
 </script>
 ```
+Node.JS server example: (using [wave.io-nodejs](https://github.com/rannn505/wave.io-nodejs)) 
+```javascript
+var http = require('http');
+var server = http.createServer(function(req, res){ }).listen(8080);
+var router = require('wave.io-server')(server);
+router.post('/postest',function(req,res){
+    console.log(req.data);
+    res.send('Ya I Know');
+});
+```
+The flow of this example:<br/>
+<img src="https://raw.githubusercontent.com/rannn505/wave.io/master/assets/wave.io-sequence-example.png">
 
 ## API
 
