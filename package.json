@@ -1,6 +1,6 @@
 {
   "name": "wave.io",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The fastest communication via WebSocket using a familiar HTTP syntax",
   "main": "wave.io.min.js",
   "directories": {

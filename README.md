@@ -7,15 +7,15 @@
 ```bash
 $ npm install wave.io
 ```
-<!--- CDN:
+- CDN:
 ``` html
-<script src="https://cdn.jsdelivr.net/angular.ngscopestorage/latest/ngscopestorage.min.js"></script>
-```-->
+<script src="https://cdn.jsdelivr.net/wave.io/latest/wave.io.min.js"></script>
+```
 - Download/Clone this repo and include `wave.io.min.js` in your project
 ``` html
 <script src="Path/To/wave.io.min.js"></script>
 ```
-- bower:
+- Bower:
 ```bash
 bower install wave.io
 ```
@@ -127,4 +127,4 @@ Don't forget a Star :)
 ## License
 
   [MIT](LICENSE)
-
+  wave.io project (c)2016 Ran Cohen
